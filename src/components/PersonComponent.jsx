@@ -1,6 +1,6 @@
 import "./card.css";
 
-function TitleComponent(props) {
+function PersonComponent(props) {
   return (
     <div className="carta">
       <h2>{props.name}</h2>
@@ -11,4 +11,4 @@ function TitleComponent(props) {
   );
 }
 
-export default TitleComponent;
+export default PersonComponent;

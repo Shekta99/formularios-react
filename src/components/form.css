@@ -1,0 +1,16 @@
+.formulario {
+  width: 60%;
+  padding: 2%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.title {
+  background-color: darkgreen;
+  color: aliceblue;
+}
+
+#error {
+  color: red;
+}
