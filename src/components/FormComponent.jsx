@@ -19,7 +19,7 @@ function FormComponent() {
   const handleSubmit = () => {
     const auxiliar = personas;
     auxiliar.push({ name, age, story });
-    setPersonas(auxiliar);
+    setPersonas([...auxiliar]);
   };
 
   const handleChange = (message, condition) => {
@@ -96,7 +96,7 @@ function FormComponent() {
           />
         </article>
         <p id="error">{error}</p>
-        <input type="submit" value="Enviar" onClick={handleSubmit} />
+        <button onClick={handleSubmit}>Enviar</button>
       </div>
       {personas.map((persona) => (
         <PersonComoponent
